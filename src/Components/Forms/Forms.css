@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.error-message {
+  font-size: 0.65rem;
+  font-weight: 600;
+  width: 280px;
+  color: rgb(197, 18, 18);
+  display: none;
+}
+.inp:invalid[focus="true"] ~ .error-message {
+  /* display: block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inp:invalid[focus="true"] {
+  border: 1px solid red;
+}
+::-webkit-input-placeholder {
+  color: 40336D;
+}
+.inp {
+  border: none;
+  outline: none;
+  height: 40px;
+  border-radius: 10px;
+  width: 280px;
+  padding-left: 10px;
+  margin: 6px;
+  box-shadow: 0px 2px 14px 5px rgba(213, 225, 250, 0.75);
+  -webkit-box-shadow: 0px 2px 14px 5px rgba(213, 225, 250, 0.75);
+  -moz-box-shadow: 0px 2px 14px 5px rgba(213, 225, 250, 0.75);
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  background-color: white;
+  border-radius: 12px;
+  flex-wrap: wrap;
+  animation: fadeInLeft; /* animate__*/
+  animation-duration: 1s;
+}
+form div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* text-align: center; */
+}
+.log-form {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  line-height: 45px;
+  background-color: white;
+  border-radius: 12px;
+  color: #FFF5DB;
+  flex-wrap: wrap;
+  animation: fadeInRight; /* animate__*/
+  animation-duration: 1s;
+}
+
+.DocSign {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
+}
+
+.DocSignWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+}
+.DocLog {
+  font-family: "Poppins", sans-serif;
+}
+.motivation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #40336D;
+  clip-path: polygon(0 0, 90% 0, 74% 100%, 0% 100%);
+  color: #FFF5DB;
+  height: 100%;
+  width: 50%;
+  animation: fadeInRight; /* animate__*/
+  animation-duration: 0.5s;
+  z-index: 100;
+}
+.login-motivation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  animation: fadeInLeft; /* animate__*/
+  animation-duration: 0.5s;
+  flex-direction: column;
+  background-color: #40336D;
+  clip-path: polygon(19% 0, 100% 0, 100% 100%, 41% 100%);
+  color: #FFF5DB;
+  height: 100%;
+  width: 50%;
+}
+.motiv-head {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.log-motiv-head {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.motivation img {
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 110px;
+  z-index: 100;
+  height: 85px;
+}
+.log-motiv-head img {
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 110px;
+  z-index: 100;
+  height: 85px;
+}
+.mot-text {
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 300px;
+}
+.log-mot-text {
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 300px;
+  margin-left: 105px;
+}
+.mot-text p {
+  font-weight: 200;
+  margin: 20px 0px;
+}
+.log-mot-text p {
+  font-weight: 200;
+  margin: 20px 0px;
+}
+.mot-text button {
+  width: 130px;
+  height: 35px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.log-mot-text button {
+  width: 130px;
+  height: 35px;
+  background: transparent;
+  border: 1px solid #40336D;
+  border-radius: 3px;
+  color: #40336D;
+  cursor: pointer;
+}
+.foot {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 0;
+  line-height: 30px;
+}
+.check {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.label {
+  font-size: x-small;
+}
+.foot button {
+  width: 100%;
+  height: 35px;
+  background-color: #FFF5DB;
+  color: #40336D;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.log-info {
+  margin-bottom: 300px;
+}
+.log-foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.log-foot p {
+  font-size: small;
+}
+.log-foot-button {
+  height: 35px;
+  background-color: #FFF5DB;
+  color: #40336D;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 285px;
+}
+.forget{
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 65px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.forget-home{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 50px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.half1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.forget-img{
+  width: 30%;
+}
+.half2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+.forget-head-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 15px;
+}
+.forget-inp-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 15px;
+}
+.forget-inp-wrap button{
+  width: 70%;
+  height: 35px;
+  background-color: #40336D;
+  color: #FFF5DB;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
+.res-half1-img{
+  width: 40%;
+}
